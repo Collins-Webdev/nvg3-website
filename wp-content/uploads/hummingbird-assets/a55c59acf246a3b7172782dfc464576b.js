@@ -1,0 +1,2 @@
+/**handles:et-core-common**/
+!function(t){t(function(){var e=navigator.userAgent,a,i=e.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))/i)||[],o="",n="";switch(/trident/i.test(i[0])?o="ie":"Chrome"===i[0]&&null!==(a=e.match(/\b(OPR|Edge)/))&&(o=a[0].replace("OPR","opera")),o=(o=""===o?"standalone"in window.navigator&&!window.navigator.standalone?"uiwebview":i[0]&&""!==i[0]?i[0]:navigator.appName:o).toLowerCase()){case"msie":n="ie";break;case"firefox":n="gecko";break;default:n=o}e.match(/iPhone/)&&(n+=" iphone"),t("body").addClass(n)})}(jQuery);
